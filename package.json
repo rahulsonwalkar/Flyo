@@ -1,0 +1,17 @@
+{
+  "name": "flyo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "twilio": "^3.4.0"
+  },
+  "devDependencies": {
+    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Sonwalkar",
+  "license": "ISC"
+}
