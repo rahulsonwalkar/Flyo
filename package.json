@@ -1,17 +1,16 @@
 {
-  "name": "flyo",
+  "name": "herokutwilio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "twilio": "^3.4.0"
-  },
-  "devDependencies": {
-    
-  },
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Rahul Sonwalkar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^3.4.0",
+    "url": "^0.11.0"
+  }
 }
