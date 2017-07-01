@@ -1,7 +1,7 @@
 
 // Twilio Credentials
-var accountSid = 'AC3a3f24027892dff7b5a15769f6028eb6';
-var authToken = 'a0a65115f197000b6f9bb5d33af64c03';
+var accountSid = '';
+var authToken = '';
 var url = require('url');
 //require the Twilio module and create a REST client
 var client = require('twilio')(accountSid, authToken);
