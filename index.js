@@ -28,4 +28,4 @@ var sendText = function (flightInfo) {
   });
 }
 
-sendText("How is the progress?");
+sendText("Show Alexa data here.");
